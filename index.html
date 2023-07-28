@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tillana:wght@400;500;600;700;800&display=swap');
+    </style>
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/codigo.js" defer></script>
+</head>
+<body>
+    <h1>Exámen de Programación Web y Multimedia</h1>
+    <h4>Seleccione una imagen</h4>
+    <table id="tb">
+        <tr>
+            <td>
+                <button onclick="document.getElementById('img01').src='img/toucan.png'"><img src="img/toucan.png" width="30px" alt="Error">  1. Tucán</button> <br>
+                <button onclick="document.getElementById('img01').src='img/cat.png'"><img src="img/cat.png" width="30px" alt="Error">  2. Gato</button> <br>
+                <button onclick="document.getElementById('img01').src='img/fox.png'"><img src="img/fox.png" width="30px" alt="Error">  3. Zorro</button> <br>
+                <button onclick="document.getElementById('img01').src='img/koala.png'"><img src="img/koala.png" width="30px" alt="Error">  4. Koala</button> <br>
+                <button onclick="document.getElementById('img01').src='img/squirrel.png'"><img src="img/squirrel.png" width="30px" alt="Error">  5. Ardilla</button> <br>
+                <button onclick="document.getElementById('img01').src='img/whale.png'"><img src="img/whale.png" width="30px" alt="Error">  6. Ballena</button>
+            </td>
+
+            <td>
+                <img id="img01" src="img/wild-animals.png" width="200px" alt="Error">
+            </td>
+        </tr>
+    </table>
+
+    <h2>Ejercicio 1</h2>
+    <button onclick="reiniciar()">REINICIAR</button>
+
+    <h2>Ejercicio 2</h2>
+    <h4>Ingrese un número y presione "Buscar"</h4>
+    <table>
+        <tr>
+            <td><input type="text" id="input2"></td>
+            <td><button onclick="buscar()">BUSCAR</button></td>
+            <td><img id="img02" src="img/wild-animals.png" width="150px" alt="Error"> <br>
+            <div id="name"> </div>
+            </td>
+        </tr>
+    </table>
+
+    <h2>Ejercicio 3</h2>
+    <h4>Ingrese un número y presione "Contar"</h4>
+    <table>
+        <tr>
+            <td><input type="text" id="input3"></td>
+            <td><button onclick="contar()">CONTAR</button></td>
+            <td><img id="img03" src="img/wild-animals.png" width="150px" alt="Error"> <br>
+            <div id="numLetras"> </div>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+    <p>
+        Autor: <em>Juan Gabriel Salazar Romero</em><br>
+        Grupo: <em>SIM-019.2</em>
+    </p>
+    
+</body>
+
+</html>
